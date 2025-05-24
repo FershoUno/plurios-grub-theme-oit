@@ -1,6 +1,19 @@
 # plurios-grub-theme-oit
 
-Resolución de los archivos de imagen:
+Este repositorio es para construir un tema para grub, enfocado al proyecto de [PluriOS](https://github.com/plurios-live)
+
+## Enlaces de referencia 
+
+Los siguientes enlaces son de referencia al proyecto original y repositorio recopilatorio
+
+virtual future => https://gitlab.com/deck451/virtual_future_grub_theme (closed)
+
+GitHub utilizado => https://github.com/RomjanHossain/Grub-Themes
+
+
+### Resolución de los archivos de imagen
+
+La siguiente lista es para tomar en cuenta el diseño y cambios de imagenes utilizados por Inkscape.
 
 | Nombre | Resolución | Formato |
 |--------|------------|---------|
@@ -19,10 +32,3 @@ Resolución de los archivos de imagen:
 | slider_c | 20x4 pixeles | PNG |
 | slider_n | 20x4 pixeles | PNG |
 | slider_s | 20x4 pixeles | PNG |
-
-
-## Fuentes para la letra:
-
-| Nombre | Extensión |
-|--------|-----------|
-|
