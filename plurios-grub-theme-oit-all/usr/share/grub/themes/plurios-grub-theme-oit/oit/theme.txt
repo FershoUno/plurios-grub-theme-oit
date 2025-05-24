@@ -10,8 +10,8 @@ terminal-height: "100%"
 
 + boot_menu {
     menu_pixmap_style = "boot_menu_*.png"
-    left = 25%
-    width = 50%
+    left = 10%
+    width = 70%
     top = 30%
     height = 40%
     item_font = "Terminus (TTF) Bold 20"
