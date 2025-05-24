@@ -1,6 +1,6 @@
 # plurios-grub-theme-oit
 
-Este repositorio es para construir un tema para grub, enfocado al proyecto de [PluriOS](https://github.com/plurios-live)
+Este repositorio es para construir un tema para grub, enfocado al proyecto de [PluriOS](https://github.com/nlbol/plurios-live)
 
 ## Enlaces de referencia 
 
