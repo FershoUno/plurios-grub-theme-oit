@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e
+
+# GRUB_DEFAULT="/etc/default/grub"
+# THEME_PATH="/usr/share/grub/themes/plurios-grub-theme-oit/theme.txt"
+
+# if grep -q "^GRUB_THEME=\"$THEME_PATH\"" "$GRUB_DEFAULT"; then
+#     echo "Eliminando configuración del tema GRUB."
+#     sed -i '/^GRUB_THEME=/d' "$GRUB_DEFAULT"
+#     update-grub
+# fi
+
+echo "Uninstalling theme.."
+update-grub

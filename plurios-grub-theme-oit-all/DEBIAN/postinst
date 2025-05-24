@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+
+# GRUB_DEFAULT="/etc/default/grub"
+# THEME_PATH="/usr/share/grub/themes/plurios-grub-theme-oit/theme.txt"
+
+# if grep -q "^GRUB_THEME=" "$GRUB_DEFAULT"; then
+#     echo "Advertencia: Se está reemplazando el tema actual de GRUB."
+#     sed -i "s|^GRUB_THEME=.*|GRUB_THEME=\"$THEME_PATH\"|" "$GRUB_DEFAULT"
+# else
+#     echo "Agregando configuración del tema GRUB."
+#     echo "GRUB_THEME=\"$THEME_PATH\"" >> "$GRUB_DEFAULT"
+# fi
+
+echo "Installing theme.."
+update-grub

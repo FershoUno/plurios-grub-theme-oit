@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+if ls *.deb >/dev/null 2>&1
+then
+  rm -f *.deb
+fi
+
+dpkg-deb --build plurios-grub-theme-oit-all
