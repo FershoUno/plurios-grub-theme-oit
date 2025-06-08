@@ -6,4 +6,6 @@ then
   rm -f *.deb
 fi
 
+chown -R root:root plurios-grub-theme-oit-all/
+
 dpkg-deb --build plurios-grub-theme-oit-all
