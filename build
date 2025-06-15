@@ -1,11 +1,20 @@
 #!/bin/bash
 
-
+DIR_PACKAGE="plurios-grub-theme-oit-all"
+VERSION="0.0.3"
 if ls *.deb >/dev/null 2>&1
 then
   rm -f *.deb
 fi
 
-chown -R root:root plurios-grub-theme-oit-all/
+cp control plurios-grub-theme-oit-all/DEBIAN
 
-dpkg-deb --build plurios-grub-theme-oit-all
+chmod 755 "$DIR_PACKAGE/DEBIAN/"{postinst,postrm}
+THEME_SIZE=$(du -ks --exclude=DEBIAN "$DIR_PACKAGE/" | awk '{print $1}')
+
+sed -i "s/CHANGE_VERSION/$VERSION/g" "$DIR_PACKAGE/DEBIAN/control"
+sed -i "s/CHANGE_SIZE/$THEME_SIZE/g" "$DIR_PACKAGE/DEBIAN/control"
+
+chown -R root:root $DIR_PACKAGE
+
+dpkg-deb --build $DIR_PACKAGE

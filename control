@@ -1,11 +1,11 @@
 Package: plurios-grub-theme-oit
-Version: 0.0.3
+Version: CHANGE_VERSION
 Priority: optional
 Section: misc
 Architecture: amd64
 Depends: grub-common
 Maintainer: PluriOS Team
-Installed-Size: 772
+Installed-Size: CHANGE_SIZE
 Description: Tema simple para Grub de PluriOS
   Fork del tema "virtual_future_grub_theme"
   repositorio actual RomjanHossain/Grub-Themes.
