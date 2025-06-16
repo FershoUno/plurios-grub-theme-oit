@@ -5,7 +5,7 @@ Section: misc
 Architecture: amd64
 Depends: grub-common
 Maintainer: PluriOS Team
-Installed-Size: 772
+Installed-Size: 776
 Description: Tema simple para Grub de PluriOS
   Fork del tema "virtual_future_grub_theme"
   repositorio actual RomjanHossain/Grub-Themes.
