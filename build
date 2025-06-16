@@ -18,3 +18,5 @@ sed -i "s/CHANGE_SIZE/$THEME_SIZE/g" "$DIR_PACKAGE/DEBIAN/control"
 chown -R root:root $DIR_PACKAGE
 
 dpkg-deb --build $DIR_PACKAGE
+
+chown -R $SUDO_USER:$SUDO_USER $DIR_PACKAGE
